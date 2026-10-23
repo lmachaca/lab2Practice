@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ObservabilityDemo.MainPage">
+    <VerticalStackLayout Padding="24" Spacing="12">
+        <Label Text="Observability Demo" FontSize="26" FontAttributes="Bold" />
+        <Label Text="Activa fallas y mira las senales en el dashboard" />
+
+        <HorizontalStackLayout Spacing="10">
+            <Switch x:Name="SlowSwitch" />
+            <Label Text="Dependencia lenta (300 ms por query)" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Switch x:Name="NPlusOneSwitch" />
+            <Label Text="N+1 queries (10 queries en vez de 1)" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Switch x:Name="ErrorSwitch" />
+            <Label Text="Error intermitente (50%)" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Switch x:Name="LeakSwitch" />
+            <Label Text="Fuga de memoria (+5 MB por click)" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <Button Text="Cargar datos" Clicked="OnLoadClicked" />
+        <Button Text="Enviar 20 cargas" Clicked="OnBurstClicked" />
+        <Label x:Name="ResultLabel" Text="Listo." />
+    </VerticalStackLayout>
+</ContentPage>
+
