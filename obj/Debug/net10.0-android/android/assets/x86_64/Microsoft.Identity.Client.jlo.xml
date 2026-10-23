@@ -1,0 +1,63 @@
+<api>
+  <jcw-types>
+    <type name="BrowserTabActivity" package="crc648316b0a9aa8cfd61" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Microsoft.Identity.Client.BrowserTabActivity, Microsoft.Identity.Client">
+      <constructors>
+        <constructor name="BrowserTabActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="AuthenticationActivity" package="microsoft.identity.client" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Microsoft.Identity.Client.Platforms.Android.SystemWebview.AuthenticationActivity, Microsoft.Identity.Client">
+      <constructors>
+        <constructor name="AuthenticationActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onNewIntent" method="n_onNewIntent:(Landroid/content/Intent;)V:GetOnNewIntent_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Intent;)V" params="android.content.Intent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onSaveInstanceState" method="n_onSaveInstanceState:(Landroid/os/Bundle;)V:GetOnSaveInstanceState_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="AuthenticationAgentActivity" package="crc64ed1888fb4925e3b7" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity, Microsoft.Identity.Client">
+      <constructors>
+        <constructor name="AuthenticationAgentActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="finish" method="n_finish:()V:GetFinishHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="AuthenticationAgentActivity_CoreWebViewClient" package="crc64ed1888fb4925e3b7" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.webkit.WebViewClient" partial_assembly_qualified_name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+CoreWebViewClient, Microsoft.Identity.Client">
+      <constructors>
+        <constructor name="AuthenticationAgentActivity_CoreWebViewClient" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="AuthenticationAgentActivity_CoreWebViewClient" method="n_.ctor:(Ljava/lang/String;Landroid/app/Activity;)V:" jni_signature="(Ljava/lang/String;Landroid/app/Activity;)V" managed_parameters="System.String, System.Private.CoreLib:Android.App.Activity, Mono.Android" params="java.lang.String p0, android.app.Activity p1" retval="void" is_dynamically_registered="True" super_call="" activate_call="p0, p1" />
+      </constructors>
+      <methods>
+        <method name="onLoadResource" method="n_onLoadResource:(Landroid/webkit/WebView;Ljava/lang/String;)V:GetOnLoadResource_Landroid_webkit_WebView_Ljava_lang_String_Handler" jni_signature="(Landroid/webkit/WebView;Ljava/lang/String;)V" params="android.webkit.WebView p0, java.lang.String p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="shouldOverrideUrlLoading" method="n_shouldOverrideUrlLoading:(Landroid/webkit/WebView;Ljava/lang/String;)Z:GetShouldOverrideUrlLoading_Landroid_webkit_WebView_Ljava_lang_String_Handler" jni_signature="(Landroid/webkit/WebView;Ljava/lang/String;)Z" params="android.webkit.WebView p0, java.lang.String p1" retval="boolean" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onPageFinished" method="n_onPageFinished:(Landroid/webkit/WebView;Ljava/lang/String;)V:GetOnPageFinished_Landroid_webkit_WebView_Ljava_lang_String_Handler" jni_signature="(Landroid/webkit/WebView;Ljava/lang/String;)V" params="android.webkit.WebView p0, java.lang.String p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onPageStarted" method="n_onPageStarted:(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V:GetOnPageStarted_Landroid_webkit_WebView_Ljava_lang_String_Landroid_graphics_Bitmap_Handler" jni_signature="(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V" params="android.webkit.WebView p0, java.lang.String p1, android.graphics.Bitmap p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+    <type name="AuthenticationAgentActivity_OnApplyWindowInsetsListener" package="crc64ed1888fb4925e3b7" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+OnApplyWindowInsetsListener, Microsoft.Identity.Client">
+      <implemented_interfaces>
+        <interface name="androidx.core.view.OnApplyWindowInsetsListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="AuthenticationAgentActivity_OnApplyWindowInsetsListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="AuthenticationAgentActivity_OnApplyWindowInsetsListener" method="n_.ctor:(Landroid/webkit/WebView;)V:" jni_signature="(Landroid/webkit/WebView;)V" managed_parameters="Android.Webkit.WebView, Mono.Android" params="android.webkit.WebView p0" retval="void" is_dynamically_registered="True" super_call="" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onApplyWindowInsets" method="n_onApplyWindowInsets:(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;:GetOnApplyWindowInsets_Landroid_view_View_Landroidx_core_view_WindowInsetsCompat_Handler:AndroidX.Core.View.IOnApplyWindowInsetsListenerInvoker, Xamarin.AndroidX.Core" jni_signature="(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;" params="android.view.View p0, androidx.core.view.WindowInsetsCompat p1" retval="androidx.core.view.WindowInsetsCompat" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Microsoft.Identity.Client" module-name="Microsoft.Identity.Client.dll">
+    <type assembly-qualified-name="Microsoft.Identity.Client.BrowserTabActivity, Microsoft.Identity.Client, Version=4.90.0.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae" compat-jni-name="microsoft.identity.client.BrowserTabActivity" java-key="crc648316b0a9aa8cfd61.BrowserTabActivity" managed-key="Microsoft.Identity.Client.BrowserTabActivity" partial-assembly-qualified-name="Microsoft.Identity.Client.BrowserTabActivity, Microsoft.Identity.Client" />
+    <type assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.SystemWebview.AuthenticationActivity, Microsoft.Identity.Client, Version=4.90.0.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae" compat-jni-name="microsoft.identity.client.AuthenticationActivity" java-key="microsoft.identity.client.AuthenticationActivity" managed-key="Microsoft.Identity.Client.Platforms.Android.SystemWebview.AuthenticationActivity" partial-assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.SystemWebview.AuthenticationActivity, Microsoft.Identity.Client" />
+    <type assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity, Microsoft.Identity.Client, Version=4.90.0.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae" compat-jni-name="microsoft.identity.client.platforms.android.embeddedwebview.AuthenticationAgentActivity" java-key="crc64ed1888fb4925e3b7.AuthenticationAgentActivity" managed-key="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity" partial-assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity, Microsoft.Identity.Client" />
+    <type assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+CoreWebViewClient, Microsoft.Identity.Client, Version=4.90.0.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae" compat-jni-name="microsoft.identity.client.platforms.android.embeddedwebview.AuthenticationAgentActivity_CoreWebViewClient" java-key="crc64ed1888fb4925e3b7.AuthenticationAgentActivity_CoreWebViewClient" managed-key="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity.CoreWebViewClient" partial-assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+CoreWebViewClient, Microsoft.Identity.Client" />
+    <type assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+OnApplyWindowInsetsListener, Microsoft.Identity.Client, Version=4.90.0.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae" compat-jni-name="microsoft.identity.client.platforms.android.embeddedwebview.AuthenticationAgentActivity_OnApplyWindowInsetsListener" java-key="crc64ed1888fb4925e3b7.AuthenticationAgentActivity_OnApplyWindowInsetsListener" managed-key="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity.OnApplyWindowInsetsListener" partial-assembly-qualified-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+OnApplyWindowInsetsListener, Microsoft.Identity.Client" />
+  </acw-types>
+</api>

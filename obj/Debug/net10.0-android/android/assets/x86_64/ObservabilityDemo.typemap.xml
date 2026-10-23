@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="ObservabilityDemo" mvid="44c12710e9934ccbbae04c2792f342e7">
+  <java-to-managed>
+    <entry java-name="crc641c076e035fc99696/MainActivity" managed-name="ObservabilityDemo.MainActivity, ObservabilityDemo" managed-type-token-id="33554441" />
+    <entry java-name="crc641c076e035fc99696/MainApplication" managed-name="ObservabilityDemo.MainApplication, ObservabilityDemo" managed-type-token-id="33554442" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc641c076e035fc99696/MainActivity" managed-name="ObservabilityDemo.MainActivity, ObservabilityDemo" managed-type-token-id="33554441" />
+    <entry java-name="crc641c076e035fc99696/MainApplication" managed-name="ObservabilityDemo.MainApplication, ObservabilityDemo" managed-type-token-id="33554442" />
+  </managed-to-java>
+</api>

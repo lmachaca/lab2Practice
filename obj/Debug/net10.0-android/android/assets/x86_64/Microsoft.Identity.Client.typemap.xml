@@ -1,0 +1,16 @@
+<api type="debug" assembly-name="Microsoft.Identity.Client" mvid="16b83a28d8584f08b4976d59bba74a07">
+  <java-to-managed>
+    <entry java-name="crc648316b0a9aa8cfd61/BrowserTabActivity" managed-name="Microsoft.Identity.Client.BrowserTabActivity, Microsoft.Identity.Client" managed-type-token-id="33554544" />
+    <entry java-name="microsoft/identity/client/AuthenticationActivity" managed-name="Microsoft.Identity.Client.Platforms.Android.SystemWebview.AuthenticationActivity, Microsoft.Identity.Client" managed-type-token-id="33554555" />
+    <entry java-name="crc64ed1888fb4925e3b7/AuthenticationAgentActivity" managed-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity, Microsoft.Identity.Client" managed-type-token-id="33554557" />
+    <entry java-name="crc64ed1888fb4925e3b7/AuthenticationAgentActivity_CoreWebViewClient" managed-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+CoreWebViewClient, Microsoft.Identity.Client" managed-type-token-id="33555057" />
+    <entry java-name="crc64ed1888fb4925e3b7/AuthenticationAgentActivity_OnApplyWindowInsetsListener" managed-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+OnApplyWindowInsetsListener, Microsoft.Identity.Client" managed-type-token-id="33555058" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc648316b0a9aa8cfd61/BrowserTabActivity" managed-name="Microsoft.Identity.Client.BrowserTabActivity, Microsoft.Identity.Client" managed-type-token-id="33554544" />
+    <entry java-name="microsoft/identity/client/AuthenticationActivity" managed-name="Microsoft.Identity.Client.Platforms.Android.SystemWebview.AuthenticationActivity, Microsoft.Identity.Client" managed-type-token-id="33554555" />
+    <entry java-name="crc64ed1888fb4925e3b7/AuthenticationAgentActivity" managed-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity, Microsoft.Identity.Client" managed-type-token-id="33554557" />
+    <entry java-name="crc64ed1888fb4925e3b7/AuthenticationAgentActivity_CoreWebViewClient" managed-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+CoreWebViewClient, Microsoft.Identity.Client" managed-type-token-id="33555057" />
+    <entry java-name="crc64ed1888fb4925e3b7/AuthenticationAgentActivity_OnApplyWindowInsetsListener" managed-name="Microsoft.Identity.Client.Platforms.Android.EmbeddedWebview.AuthenticationAgentActivity+OnApplyWindowInsetsListener, Microsoft.Identity.Client" managed-type-token-id="33555058" />
+  </managed-to-java>
+</api>
